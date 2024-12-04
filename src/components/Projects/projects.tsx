@@ -135,29 +135,29 @@ const ProjectsSection = () => {
           onClick={cerrarModal}
         >
           <div
-            className="bg-white p-8 rounded-lg w-3/4 max-w-4xl overflow-hidden shadow-lg transform transition-all duration-300 scale-95 hover:scale-100"
+            className="bg-white p-6 sm:p-8 rounded-lg w-[90%] sm:w-3/4 max-w-4xl h-[90%] sm:h-auto overflow-hidden shadow-lg transform transition-all duration-300 scale-95 hover:scale-100 overflow-y-auto"
             onClick={manejarClickModal}
           >
-            <h2 className="text-3xl font-semibold mb-6 text-[#040c63]">
+            <h2 className="text-2xl sm:text-3xl font-semibold mb-4 sm:mb-6 text-[#040c63]">
               {proyectoSeleccionado.titulo}
             </h2>
-            <p className="text-gray-700 text-lg mb-6">
+            <p className="text-gray-700 text-base sm:text-lg mb-4 sm:mb-6">
               {proyectoSeleccionado.descripcionModal}
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-h-80 overflow-y-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 max-h-60 sm:max-h-80 overflow-y-auto">
               {proyectoSeleccionado.imagenes.map((imagen, index) => (
                 <Image
                   key={index}
                   src={imagen}
                   alt={`${proyectoSeleccionado.titulo} imagen ${index + 1}`}
-                  width={550}
-                  height={350}
+                  width={500}
+                  height={300}
                   className="rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
                 />
               ))}
             </div>
             <button
-              className="mt-8 px-8 py-4 bg-[#040c63] text-white rounded-full text-xl font-semibold hover:bg-[#1ebdcf] transition duration-300"
+              className="mt-4 sm:mt-8 px-6 sm:px-8 py-3 sm:py-4 bg-[#040c63] text-white rounded-full text-base sm:text-xl font-semibold hover:bg-[#1ebdcf] transition duration-300"
               onClick={cerrarModal}
             >
               Cerrar
