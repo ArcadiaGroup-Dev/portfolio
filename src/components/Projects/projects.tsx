@@ -29,7 +29,7 @@ const ProjectsSection = () => {
   const proyectos: Proyecto[] = [
     {
       titulo: "PupShops",
-      descripcion: "Descripción del proyecto 1",
+      descripcion: "Bienvenido a PupShops",
       imagenes: ["/p1.png", "/p2.png", "/p3.png", "/p4.png", "/p5.png"],
       descripcionModal: `
         Este proyecto incluye:
