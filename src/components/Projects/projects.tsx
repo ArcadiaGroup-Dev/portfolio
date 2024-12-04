@@ -83,20 +83,21 @@ const ProjectsSection = () => {
         ¿Buscás un e-commerce único? En Arcadia, lo hacemos posible. ¡Conectemos!
       `,
     },
+
     {
-      titulo: "Portfolio / DEMO",
-      descripcion: "Portafolio interactivo",
-      imagenes: ["/image10.jpg", "/image11.jpg", "/image12.jpg"],
+      titulo: "Sportive Store",
+      descripcion: "E-commerce para tienda de ropa deportiva",
+      imagenes: ["/t1.jpeg", "/t2.jpeg", "/t3.jpeg", "/t4.jpeg"],
       descripcionModal: `
-        En Arcadia, creamos portafolios que reflejan talento y profesionalismo. Este ejemplo incluye:
-        - Proyectos interactivos: ChatBots, juegos y más.
-        - Cambio de idioma en tiempo real.
-        - Enlaces directos a redes sociales.
-        
-        Desarrollado con JavaScript, React, Next.js, Nest.js, PostgreSQL y Tailwind CSS, combina diseño moderno con tecnología avanzada.
-        
-        ¿Querés un portafolio único? En Arcadia, lo hacemos posible. ¡Exploralo y conectemos!
-      `,
+          En Arcadia, desarrollamos e-commerces que destacan por su diseño y funcionalidad. "Sporttive Store" incluye:
+          - Catálogo interactivo: Explora una amplia variedad de productos deportivos con filtros intuitivos.
+          - Carrito de compras dinámico: Fluidez en la selección y compra de artículos.
+          - Sistema de gestión eficiente: Administración optimizada de inventario y pedidos.
+          
+          Desarrollado con JavaScript, React, Next.js, Nest.js, PostgreSQL y Tailwind CSS, este proyecto combina diseño moderno con un backend robusto.
+          
+          ¿Buscás un e-commerce a medida? En Arcadia, hacemos que tu visión sea una realidad. ¡Exploralo y conectemos!
+        `,
     },
   ];
 
